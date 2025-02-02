@@ -17,7 +17,7 @@ export default function Home() {
             </div>
           </Link>
           <Link href="/" className="hover:underline hover:text-blue-400">
-            Professionnels
+            Professionnals
           </Link>
           <Link href="/" className="hover:underline hover:text-blue-400">
             Entreprises
@@ -34,7 +34,7 @@ export default function Home() {
             href="/"
             className="px-4 py-2 bg-cyan-500 text-white rounded-md hover:bg-blue-700"
           >
-            Devenir client
+            Become client
           </Link>
           <Link
             href="/"
@@ -42,13 +42,15 @@ export default function Home() {
           >
             <div className="flex items-center gap-2">
               <User size={20} />
-              Se connecter
+              Sign in
             </div>
           </Link>
         </div>
       </div>
       {/* The nav content */}
-      <Navbar />
+      <div className="flex mt-5 ml-[100px] items-center gap-2">
+        <Navbar />
+      </div>
     </div>
   );
 }
